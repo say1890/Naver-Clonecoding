@@ -1,0 +1,52 @@
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center; 
+}
+
+.text-center{
+    text-align: center;
+}
+
+.self-center{
+    align-self: center;
+}
+
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bg-pink{
+    background-color: pink;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
