@@ -1,0 +1,147 @@
+.my_wrap {
+    width: 350px;
+    height: 457px;
+    padding: 0 20px;
+    letter-spacing: -.2px;
+}
+.my_cont {
+    border: 1px solid #dae1e6;
+}
+.sc_user {
+    background-color: #f7f9fa;
+}
+.sc_user .info_area {
+    overflow: hidden;
+    position: relative;
+    padding: 17px 17px 0;
+}
+.sc_user .info_area .thumb_bd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .08;
+    filter: alpha(opacity=8);
+    border: 1px solid #000;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.sc_user .info_area .btn_logout {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    padding: 6px 10px 6px 11px;
+    background-color: #ccd0d4;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+}
+.sc_user .info_area .user_thumb {
+    float: left;
+    position: relative;
+    margin-right: 16px;
+}
+.sc_user .info_area .user_thumb:after {
+    position: absolute;
+    right: -3px;
+    bottom: -1px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-position: -25px -258px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+}
+img {
+    vertical-align: top;
+}
+
+.sc_user .info_area .user_thumb>img {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/* info box*/
+
+.sc_user .info_area .user_info .info_box {
+    padding-right: 60px;
+    line-height: 18px;
+}
+.sc_user .info_area .user_info .link_set .nickname {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 85px;
+    vertical-align: top;
+}
+.sc_user .info_area .user_info .link_set {
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.sc_user .info_area .user_info .link_my:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 0 7px 0 3px;
+    background-color: #dae1e6;
+    vertical-align: -1px;
+}
+.sc_user .info_area .user_info .link_protect:before {
+    display: inline-block;
+    width: 9px;
+    height: 13px;
+    background-position: -273px -217px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: 0 3px;
+    vertical-align: -1px;
+}
+
+.sc_user .info_area .user_info .email {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 1px;
+    color: grey;
+}
+
+.sc_user .info_area .user_info .new_box {
+    overflow: hidden;
+    margin-top: 3px;
+    color: #404040;
+}
+.sc_user .info_area .user_info .nplus_wrap:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 2px 9px 0 10px;
+    background-color: #e4e8eb;
+    vertical-align: top;
+}
+
+.sc_user .info_area .user_info .link_nplus {
+    display: inline-block;
+    width: 64px;
+    height: 16px;
+    background-position: -66px -13px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.sc_user .info_area .user_info .nplus_wrap {
+    overflow: hidden;
+    float: left;
+}
+.sc_user .info_area .user_info .num {
+    margin-left: 4px;
+    color: #03c75a;
+}

@@ -1,0 +1,28 @@
+.gnb .list_nav .ico_mail,
+.gnb .list_nav .ico_tv,
+.gnb .list_nav .shop:before,
+.gnb .list_nav .shoplive:before,
+.logo_default .logo_naver:before,
+.gnb .btn_more:after
+{
+  background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
+  -webkit-background-size: 457px 434px;
+  background-size: 457px 434px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.sc_user .info_area .user_thumb:after,
+.sc_user .info_area .user_info .link_protect:before,
+.sc_user .info_area .user_info .link_nplus
+ {
+  background-image: url(https://s.pstatic.net/static/www/img/uit/sp_my_c0eba8.png);
+  -webkit-background-size: 307px 298px;
+  background-size: 307px 298px;
+  background-repeat: no-repeat;
+}
+
+

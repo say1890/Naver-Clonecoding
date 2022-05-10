@@ -1,166 +1,258 @@
-#header{
-    position: relative;
-    background-color: #fff;
-    z-index: 2000;
-    height: 300px;
-    border-bottom: 1px solid #e4e8eb;
-    flex-direction: column;
-    overflow:auto 
-
+#header {
+  position: relative;
+  background-color: #fff;
+  z-index: 2000;
 }
 
-#header .logo{
-    position: absolute;
-    top: 50%;
-    margin-top: 40px;
-    margin-left: 18%
+#header .special_bg {
+  position: relative;
+  height: 160px;
+  background-color: #fff;
+  border-bottom: 1px solid #e4e8eb;
 }
+
+#header .group_flex {
+  position: relative;
+  width: 1130px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
 #header .logo_area {
-    position: relative;
-    height: 100%;
-}
-#header .logo .logo_naver{
-    display: block;
-    display: inline-block;
-    width: 222px;
-    height: 52px;
-    background-position: 0 -158px;
+  position: relative;
+  height: 100%;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
+#header .logo_default {
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  margin-top: -32px;
 }
 
-#header .service_area .link_set {
-    margin-left: 75%;
-    float: left;
-    font-size: 11px;
-    color: #404040;
+#header .logo_default .logo_naver {
+  display: block;
 }
 
-#header .service_area .sa_bar {
-    float: left;
-    width: 1px;
-    height: 10px;
-    margin: 3px 7px;
-    background-color: #e4e8eb;
+
+#header .logo_default .logo_naver:before {
+  display: inline-block;
+  width: 222px;
+  height: 52px;
+  background-position: 0 -158px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: '';
 }
 
-#header .service_area .link_jrnaver {
-    float: left;
+
+
+.logo_and_search_area {
+  margin-top: 70px;
+  height: 180px;
+  overflow: hidden;
+  display: flex;
 }
 
-/* 해피빈 부분*/
 
-
-#header .service_area .link_happybin {
-    float: left;
-    margin-left: 6px;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-#header .service_area .link_happybin .ico_happybin {
-    display: inline-block;
-    width: 34px;
-    height: 11px;
-    background-position: -369px -299px;
-    background-repeat: no-repeat;
-    vertical-align: top;
-    margin: 3px 3px 2px;
+
+.service_area {
+  position: absolute;
+  top: 12px;
+  right: 27px;
+  width: 300px;
+  height: 23px;
+}
+
+.service_area .link_set {
+  float: left;
+  font-size: 11px;
+  color: #404040;
+}
+
+.service_area .sa_bar {
+  float: left;
+  width: 1px;
+  height: 10px;
+  margin: 3px 7px;
+  background-color: #e4e8eb;
 }
 
 i {
-    font-style: normal;
+  font-style: normal;
 }
 
 /* 검색창 */
 
 #header .search_area {
-    position: absolute;
-    top: 30%;
-    margin-left: 35%;
-    border:none;
+  position: absolute;
+  top: 50%;
+  left: 268px;
+  margin-top: -28px;
 }
 
-
 #header .search_area .green_window {
-    position: relative;
-    width: 582px;
-    height: 52px;
-    border: 2px solid #19ce60;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+  position: relative;
+  top: 10px;
+  width: 582px;
+  height: 52px;
+  border: 2px solid #19ce60;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
 #header .search_area .input_text {
-    width: 444px;
-    height: 24px;
-    padding: 13px 15px;
-    background-color: #fff;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000;
-    font-weight: 700;
-    outline-style: none;
-    border:none;
+  width: 444px;
+  height: 24px;
+  padding: 13px 15px;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+  outline-style: none;
+  border: none;
 }
 
 #header .search_area .btn_submit {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 56px;
-    background-color: #19ce60;
-    -webkit-border-radius: 0 2px 2px 0;
-    border:none;
-    cursor: pointer;
+  position: absolute;
+
+  right: 0;
+  bottom: -9px;
+  width: 56px;
+  background-color: #19ce60;
+  -webkit-border-radius: 0 2px 2px 0;
+  border: none;
+  cursor: pointer;
 }
-
-#header .search_area .btn_submit .ico_search_submit{
-    background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
-    background-size: 457px 434px;
-}
-
-
 
 /* gnb */
-.gnb{ 
-width: 100%;
-   
+.gnb {
+  position: relative;
+  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
 }
 
-.gnb-icon{
- margin-right: 9px;
- margin-bottom: -5px;
+.gnb .gnb_inner {
+  position: relative;
+  width: 1130px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
-.gnb .group_nav { 
-    width: auto;
-    overflow: hidden;
-    position: relative;
-    margin-top: 10%;
-    padding: 11px 270px 11px 0;
-    
+.gnb .group_nav {
+  overflow: hidden;
+  position: relative;
+  padding: 11px 270px 11px 0;
 }
 
-.menu{
-    
-    margin-left: 6px;
-    margin-right: 6px;
-    text-align: center;
-    
+.gnb .list_nav {
+  float: left;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -0.3px;
+}
+.gnb .list_nav .nav_item {
+  float: left;
+}
+.gnb .list_nav .nav_item + .nav_item {
+  margin-left: 12px;
+}
+.gnb .list_nav .shop {
+  padding: 5px 0;
+}
+.gnb .list_nav .shop:before {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  background-position: -154px -389px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: "";
+  display: block;
+}
+.gnb .list_nav .shoplive {
+  padding: 5px 0;
+}
+.gnb .list_nav .shoplive:before {
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+  background-position: -202px -299px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: "";
+  display: block;
+}
+.gnb .btn_more {
+  float: left;
+  margin-left: 17px;
+  font-size: 13px;
+  line-height: 30px;
+  color: #202020;
+  text-align: right;
+}
+.gnb .btn_more:after {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background-position: -444px -330px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  content: '';
+  margin-left: 7px;
+  vertical-align: 2px;
+}
+
+.gnb .list_nav .nav {
+  display: block;
+  text-decoration: none;
+}
+.gnb .list_nav .ico_mail {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-position: -420px -73px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 3px 9px 0 0;
+}
+
+.gnb .list_nav .ico_tv {
+  display: inline-block;
+  width: 12px;
+  height: 14px;
+  background-position: -444px -49px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 9px 2px 0 0;
+}
+
+
+
+.menu {
+  min-width: 60px;
+  min-height: 30px;
+  margin-right: 6px;
+  text-align: center;
+}
+.gnb-icon {
+  margin-right: 9px;
+  margin-bottom: -5px;
 }
 .gnb .group_nav .group_weather {
-    position: absolute;
-    top: 0;
-    right: 30px;
-    bottom: 0;
-    overflow: hidden;
-    max-width: 270px;
-    height: 52px;
-    text-align: right;
-}
-
-
-div{
-    min-width: 60px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  bottom: 0;
+  overflow: hidden;
+  max-width: 270px;
+  height: 52px;
+  text-align: right;
 }
