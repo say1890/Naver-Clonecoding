@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Naver</title>
+  <title>NAVER</title>
   <link rel="stylesheet" href="/static/css/main.css" />
   <link rel="stylesheet" href="/static/css/header.css" />
   <link rel="stylesheet" href="/static/css/container.css" />
@@ -17,32 +17,32 @@
 <body>
   <div id="wrap">
     <div id="header" role="banner">
-      <div class="special_bg">
-        <div class="group_flex">
-          <!--logo area 시작-->
-          <div class="logo_area">
-            <h1 class="logo_default">
-              <a href="/" class="logo_naver" data-clk="top.logo">
-              </a>
-            </h1>
-          </div>
-          <!--logo area 끝-->
-
-          <!--service area 시작-->
-          <div class="service_area bg-yellow">
+      <div class="group_flex">
+        <!--logo area 시작-->
+        <div class="logo_area">
+          <h1 class="logo_default">
+            <a href="/" class="logo_naver" data-clk="top.logo">
+            </a>
+          </h1>
+          <!--✨service area 시작✨-->
+          <div class="service_area">
             <a id="set_naver_home" href="https://help.naver.com/support/welcomePage/guide.help" class="link_set">네이버를
               시작페이지로
               <i class="fas fa-chevron-circle-right"> > </i>
             </a>
             <i class="sa_bar"></i>
-            <a href="https://jr.naver.com"><img src="/static/image/naver_junior.png" /></a>
+
+            <a href="https://jr.naver.com" class="link_jrnaver" data-clk="top.jrnaver">
+              <i class="ico_jrnaver"></i>
+            </a>
+
             <a href="https://happybean.naver.com">
-              <img src="/static/image/naver_happybean.png" />
+              <i class="ico_happybin"></i>
             </a>
           </div>
-          <!--service area 끝-->
-          <!--검색창-->
+          <!--✨service area 끝✨-->
 
+          <!--검색창-->
           <div id="search" class="search_area">
             <form id="search_form" action="https://search.naver.com/search.naver" method="get" role="search">
               <fieldset>
@@ -51,94 +51,101 @@
                     tabindex="1" accesskey="s" autocomplete="off" placeholder="검색어를 입력해 주세요." />
                 </div>
                 <button id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit">
-                  <img src="/static/image/naver_search.png" />
+                  <span class="ico_search_submit"></span>
                 </button>
               </fieldset>
             </form>
           </div>
-
           <!--검색창  끝-->
-          <!--gnb-->
-          <div class="gnb bg-blue">
-            <div class="gnb_inner bg-yellow">
-              <div class="group_nav">
-                <div class="list_nav">
-                  <li class="nav_item">
-                    <a href="#" class="text-center text-green nav">
-                      <i class="ico_mail"></i>
-                      메일
-                    </a>
-                  </li>
-                  <li class="nav_item text-green">
-                    <a href="#" class="nav">카페</a>
-                  </li>
+        </div>
+        <!-- group_flex 끝-->
+      </div>
+      <!--✨logo area 끝✨-->
 
-                  <li class="nav_item text-green">
-                    <a href="#">블로그</a>
-                  </li>
 
-                  <li class="nav_item text-green">
-                    <a href="#" class="nav">지식in</a>
-                  </li>
 
-                  <li class="nav_item text-green">
-                    <a href="#" class="nav shop"></a>
-                  </li>
 
-                  <li class="nav_item text-green">
-                    <a href="#" class="nav shoplive"></a>
-                  </li>
-                  <li class="nav_item text-green">
-                    <a href="#" class="nav">Pay</a>
-                  </li>
-                  <li class="nav_item text-green">
-                    <a href="https://tv.naver.com/" class="nav" data-clk="svc.tvcast">
-                      <i class="ico_tv"></i>
-                      TV
-                    </a>
-                  </li>
 
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">사전</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">뉴스</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">증권</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">부동산</a>
-                  </li>
-                  <li class="nav_item nav">
-                    <a href="#" class="nav">지도</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">VIBE</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">책</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" class="nav">웹툰</a>
-                  </li>
-                  <li class="nav_item">
-                    <a href="#" role="button" class="btn_more">더보기</a>
-                  </li>
-                </div>
-              </div>
+      <!--gnb-->
+      <div class="gnb">
+        <div class="gnb_inner">
+          <div class="group_nav">
+            <div class="list_nav">
+              <li class="nav_item">
+                <a href="#" class="text-center text-green nav">
+                  <i class="ico_mail"></i>
+                  메일
+                </a>
+              </li>
+              <li class="nav_item text-green">
+                <a href="#" class="nav">카페</a>
+              </li>
+
+              <li class="nav_item text-green">
+                <a href="#">블로그</a>
+              </li>
+
+              <li class="nav_item text-green">
+                <a href="#" class="nav">지식in</a>
+              </li>
+
+              <li class="nav_item text-green">
+                <a href="#" class="nav shop"></a>
+              </li>
+
+              <li class="nav_item text-green">
+                <a href="#" class="nav shoplive"></a>
+              </li>
+              <li class="nav_item text-green">
+                <a href="#" class="nav">Pay</a>
+              </li>
+              <li class="nav_item text-green">
+                <a href="https://tv.naver.com/" class="nav" data-clk="svc.tvcast">
+                  <i class="ico_tv"></i>
+                  TV
+                </a>
+              </li>
+
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">사전</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">뉴스</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">증권</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">부동산</a>
+              </li>
+              <li class="nav_item nav">
+                <a href="#" class="nav">지도</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">VIBE</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">책</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav">웹툰</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" role="button" class="btn_more">더보기</a>
+              </li>
             </div>
-            <!--gnb 끝-->
           </div>
         </div>
       </div>
+      <!--gnb 끝-->
+
+
     </div>
     <!--header 끝-->
 
     <div id="container" role="main" class="bg-cornflowerblue">
-      <div style="position: relative; width: 1130px; margin:0 auto; z-index: 11">
-      </div>
+
       <div class="column_left bg-orange">
         <div id="veta_top">
           <img src="https://ssl.pstatic.net/tveta/libs/1386/1386493/75052ba0c69cf1ca9920_20220506095946892.jpg"
@@ -174,133 +181,238 @@
           <div class="set_area" role="tablist">
             <a href="#" role="tab" data-type="list" data-clk="articleview" class="btn_set"
               aria-controls="NM_NEWSSTAND_DEFAULT_LIST" aria-selected="false">
-              <img src="/static/image/naver_list.PNG" class="news_icons" />
+              <!--aria-controls:  이 탭이 어떤 요소에 대한 컨트롤인지를 참조한다. 연관 요소의 id값을 이용.-->
             </a>
           </div>
-          <div class="group_news" role="tabpanel">
-            <a href="#" role="button" class="btn_preview">
-              <h1>
-                <</h1> </a> <div class="part_of_group_news bg-pink">
-          </div>
-          <div class="part_of_group_news bg-cornflowerblue"></div>
-          <div class="part_of_group_news bg-purple"></div>
-          <div class="part_of_group_news bg-orange"></div>
-          <div class="part_of_group_news bg-green"></div>
-          <div class="part_of_group_news bg-blue"></div>
-          <div class="part_of_group_news bg-pink"></div>
-          <div class="part_of_group_news bg-cornflowerblue"></div>
-          <div class="part_of_group_news bg-purple"></div>
-          <div class="part_of_group_news bg-orange"></div>
-          <div class="part_of_group_news bg-green"></div>
-          <div class="part_of_group_news bg-blue"></div>
-          <div class="part_of_group_news bg-pink"></div>
-          <div class="part_of_group_news bg-cornflowerblue"></div>
-          <div class="part_of_group_news bg-purple"></div>
-          <div class="part_of_group_news bg-orange"></div>
-          <div class="part_of_group_news bg-green"></div>
-          <div class="part_of_group_news bg-blue"></div>
-          <div class="part_of_group_news bg-pink"></div>
-          <div class="part_of_group_news bg-cornflowerblue"></div>
-          <div class="part_of_group_news bg-purple"></div>
-          <div class="part_of_group_news bg-orange"></div>
-          <div class="part_of_group_news bg-green"></div>
-          <div class="part_of_group_news bg-blue"></div>
-          <a href="#" role="button" class="btn_next">
-            <h1>></h1>
-          </a>
-        </div>
-      </div>
+          <div class="title_view">
+            <div class="frame_area">
+              <div class="thumb_area">
+                <div class="group_news" role="tabpanel">
+                  <a href="#" role="button" class="btn_preview">
+                    <i class="ico_btn">
+                    </i>
+                  </a>
 
-      <div id="themecast" class="sc_themecast bg-yellow">
-        <div class="theme_head">
-          <div class="group_title">
-            <div class="title_area">
-              <strong class="title">오늘 읽을만한 글</strong>
-              <span class="dsc"> 주제별로 분류된 다양한 글 모음</span>
-            </div>
-            <div class="info_area">
-              <span class="info">
-                <strong class="new">694</strong>
-                개의 글
-              </span>
-              <a href="#" role="button" class="btn_set" data-clk="tca.like">관심주제 설정</a>
-            </div>
-          </div>
-          <!--group_title 끝-->
-          <div class="group_category">
-            <div class="main_category">
-              <a href="#" role="button" class="pm_btn_prev NM_THEME_PREV" data-clk="tct.prev">
-                < </a> <a href="#" role="button" class="pm_btn_next NM_THEME_NEXT" data-clk="tct.next">
-                  >
-              </a>
-              <div class="list_category_wrap">
-                <ul class="list_category" role="tablist" data-index="0">
-                  <li class="category_item" role="presentation">
-                    <a href="#" role="tab" class="_NM_THEME_CATE tab id_enter" aria-selected="false"
-                      aria-controls="NM_THEME_CONTAINER" data-clk="tct.tvc" data-panel-code="ENTER">엔터</a>
-                  </li>
-                  <li>
-                    <a href="#" role="tab" class="_NM_THEME_CATE tab id_sports" aria-selected="true"
-                      aria-controls="NM_THEME_CONTAINER" data-clk="tct.spo" data-panel-code="SPORTS">스포츠</a>
-                  </li>
 
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--themecast 끝-->
-    </div>
-    <!--왼쪽 div 끝-->
-    <div class="column_right bg-pink">
-      <div class="my_wrap bg-yellow">
-        <div class="my_cont">
-          <div class="sc_user">
-            <div class="info_area">
-              <a href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fwww.naver.com" target="_parent"
-                class="btn_logout" data-clk="nmy.logout">로그아웃</a>
-              <a href="https://nid.naver.com/user2/api/route.nhn?m=routePcProfileModification" target="_parent"
-                class="user_thumb" data-clk="nmy.profile">
-                <img id="MY_PROFILE"
-                  src="https://phinf.pstatic.net/contact/20210615_153/1623713887689pDwzd_PNG/%C4%B8%C3%B3.PNG?type=f130_130"
-                  width="56" height="56" alt="Ravishing Neon님">
-                <span class="thumb_bd"></span>
-              </a>
-              <div class="user_info">
-
-                <div class="info_box">
-                  <a href="https://nid.naver.com/user2/api/route.nhn?m=routePcProfileModification" target="_parent"
-                    class="link_set" data-clk="nmy.idname"><span class="nickname MY_NICKNAME">Ravishing Neon</span>님</a>
-                  <a href="https://nid.naver.com/user2/help/myInfoV2?lang=ko_KR" target="_parent" class="link_my"
-                    data-clk="nmy.modfy">네이버ID</a>
-                  <a href="https://nid.naver.com/user2/help/myInfoV2?m=viewSecurity&amp;lang=ko_KR" target="_parent"
-                    class="link_protect" data-clk="nmy.caution"></a>
-                  <div class="email">sunadang1234@naver.com</div>
-                </div>
-                <!--info box 끝-->
-                <div class="new_box">
-
-                  <div class="nplus_wrap">
-                    <a href="https://nid.naver.com/membership/my" target="_parent" class="link_nplus"
-                      data-clk="nmy.plus"></a>
+                  <div class="part_of_group_news ">
+                    <a href="#" class="thumb">
+                      <img alt="한국경제TV" class="news_logo" loading="lazy"
+                        src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/215.png">
+                    </a>
+                    <div class="popup_wrap"> <a href="#" role="button"
+                        class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press" data-pid="215" data-clk="sub">구독</a> <a
+                        href="#" role="button" class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press" data-pid="215"
+                        data-clk="unsub">해지</a> <a href="http://newsstand.naver.com/?list=&amp;pcode=215"
+                        target="_blank" class="btn_popup" data-pid="215" data-clk="logo">기사보기</a> </div>
                   </div>
 
-                  <a href="https://mail.naver.com" target="_parent" class="link_new" data-clk="nmy.mailtit">메일
-                    <strong class="num MY_MAIL_COUNT">9909</strong></a>
-                  <a href="https://note.naver.com" target="_parent" class="link_new" data-clk="nmy.note">쪽지
-                    <strong class="num MY_NOTE_COUNT">129</strong></a>
+
+                  <div class="part_of_group_news ">
+                    <div class="thumb_box"> <a href=" #" class="thumb"> <img alt="아시아경제" class="news_logo"
+                          loading="lazy" src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/277.png">
+                      </a>
+                      <div class="popup_wrap"> <a href="#" role="button"
+                          class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press" data-clk="sub">구독</a> <a href="#"
+                          role="button" class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press" "
+                          data-clk=" unsub">해지</a> <a href="http://newsstand.naver.com/?list=&amp;pcode=277"
+                          target="_blank" class="btn_popup" " data-clk=" logo">기사보기</a> </div>
+                    </div>
+
+                    <div class="part_of_group_news">
+                      <div class="thumb_box">
+                        <a href="#" class="thumb">
+                          <img alt="조선일보" class="news_logo" loading="lazy"
+                            src="https://s.pstatic.net/static/newsstand/up/2020/0903/nsd185255316.png">
+                        </a>
+
+                        <div class="popup_wrap">
+                          <a href="#" role="button" class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+                            data-clk="sub">구독</a>
+                          <a href="#" role="button" class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+                            data-clk="unsub">
+                            해지
+                          </a>
+                          <a href="http://newsstand.naver.com/?list=&amp;pcode=023" target="_blank" class="btn_popup"
+                            data-clk="logo">기사보기</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+                    <div class="part_of_group_news">
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news"></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news"></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news"></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <div class="part_of_group_news "></div>
+                  <a href="#" role="button" class="btn_next">
+                    <i class="ico_btn"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--newsstand 끝-->
+
+        <div id="themecast" class="sc_themecast bg-yellow">
+          <div class="theme_head">
+            <div class="group_title">
+              <div class="title_area">
+                <strong class="title">오늘 읽을만한 글</strong>
+                <span class="dsc"> 주제별로 분류된 다양한 글 모음</span>
+              </div>
+              <div class="info_area">
+                <span class="info">
+                  <strong class="new">694</strong>
+                  개의 글
+                </span>
+                <a href="#" role="button" class="btn_set" data-clk="tca.like">관심주제 설정</a>
+              </div>
+            </div>
+            <!--group_title 끝-->
+            <div class="group_category">
+              <div class="main_category">
+                <a href="#" role="button" class="pm_btn_prev NM_THEME_PREV" data-clk="tct.prev">
+                  < </a> <a href="#" role="button" class="pm_btn_next NM_THEME_NEXT" data-clk="tct.next">
+                    >
+                </a>
+                <div class="list_category_wrap">
+                  <ul class="list_category" role="tablist" data-index="0">
+
+                    <li class="category_item" role="presentation">
+                      <a href="#" role="tab" class="_NM_THEME_CATE tab id_enter" aria-selected="false"
+                        aria-controls="NM_THEME_CONTAINER" data-clk="tct.tvc" data-panel-code="ENTER">엔터</a>
+                    </li>
+
+                    <li class="category_item" role="presentation">
+                      <!--role = presentaion은 semantic 의미를 요소와 그 자식요소로부터 제거하기 위해서 사용한다.
+                      시각적으로 게시하는 용도의 요소에 적용.
+                      none은 최근에 나온 속성값으로 presentation과 같은역할을 한다.
+                      호환성문제가 있을 수 있으니까 두개 다 기입해 주는것이 좋음.-->
+                      <a href="#" role="tab" class="_NM_THEME_CATE tab id_sports" aria-selected="true"
+                        aria-controls="NM_THEME_CONTAINER" data-clk="tct.spo" data-panel-code="SPORTS">스포츠</a>
+                    </li>
+                    <li class="category_item" role="presentation">
+                      <a href="#" role="tab" class="_NM_THEME_CATE tab id_cargame" aria-selected="false"
+                        aria-controls="NM_THEME_CONTAINER" data-clk="tct.aut" data-panel-code="CARGAME">자동차</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--themecast 끝-->
+      </div>
+      <!--왼쪽 div 끝-->
+      <div class="column_right bg-pink">
+        <div class="my_wrap bg-yellow">
+          <div class="my_cont">
+            <div class="sc_user">
+              <div class="info_area">
+                <a href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fwww.naver.com" target="_parent"
+                  class="btn_logout" data-clk="nmy.logout">로그아웃</a>
+                <a href="https://nid.naver.com/user2/api/route.nhn?m=routePcProfileModification" target="_parent"
+                  class="user_thumb" data-clk="nmy.profile">
+                  <img id="MY_PROFILE"
+                    src="https://phinf.pstatic.net/contact/20210615_153/1623713887689pDwzd_PNG/%C4%B8%C3%B3.PNG?type=f130_130"
+                    width="56" height="56" alt="Ravishing Neon님">
+                  <span class="thumb_bd"></span>
+                </a>
+                <div class="user_info">
+
+                  <div class="info_box">
+                    <a href="https://nid.naver.com/user2/api/route.nhn?m=routePcProfileModification" target="_parent"
+                      class="link_set" data-clk="nmy.idname"><span class="nickname MY_NICKNAME">Ravishing
+                        Neon</span>님</a>
+                    <a href="https://nid.naver.com/user2/help/myInfoV2?lang=ko_KR" target="_parent" class="link_my"
+                      data-clk="nmy.modfy">네이버ID</a>
+                    <a href="https://nid.naver.com/user2/help/myInfoV2?m=viewSecurity&amp;lang=ko_KR" target="_parent"
+                      class="link_protect" data-clk="nmy.caution"></a>
+                    <div class="email">sunadang1234@naver.com</div>
+                  </div>
+                  <!--info box 끝-->
+                  <div class="new_box">
+
+                    <div class="nplus_wrap">
+                      <a href="https://nid.naver.com/membership/my" target="_parent" class="link_nplus"
+                        data-clk="nmy.plus"></a>
+                    </div>
+
+                    <a href="https://mail.naver.com" target="_parent" class="link_new" data-clk="nmy.mailtit">메일
+                      <strong class="num MY_MAIL_COUNT">9909</strong></a>
+                    <a href="https://note.naver.com" target="_parent" class="link_new" data-clk="nmy.note">쪽지
+                      <strong class="num MY_NOTE_COUNT">129</strong></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!--오른쪽 div 끝-->
     </div>
-    <!--오른쪽 div 끝-->
-  </div>
-  <!--container 끝-->
+    <!--container 끝-->
   </div>
   <!--wrap 끝-->
 </body>

@@ -1,9 +1,9 @@
 #container {
   position: relative;
   width: 1130px;
-  height:3000px;
+  height: 3068.670px;
   padding: 20px 30px;
-  margin: 50px auto;
+  margin: 0 auto;
   letter-spacing: -0.2px;
 }
 
@@ -19,7 +19,6 @@
 .column_right {
   float: right;
   width: 350px;
-  height:800px;
 }
 
 .ad {
@@ -31,7 +30,9 @@
 }
 
 #newsstand {
+  width: 750px;
   margin-top: 12px;
+  box-sizing: border-box;
 }
 
 .news {
@@ -40,7 +41,10 @@
   padding: 12px 15px 11px 15px;
   background-color: #f7f9fa;
   border: 1px solid #dae1e6;
-  line-height: 24px;
+}
+
+.news_logo {
+  height: 20px;
 }
 
 .group_issue {
@@ -54,6 +58,7 @@
 .issue_area {
   float: left;
 }
+
 .group_issue .link_media {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -96,6 +101,7 @@
   font-size: 13px;
   text-decoration: none;
 }
+
 .link_news:after {
   background-color: #c8ccd1;
   display: inline-block;
@@ -108,10 +114,12 @@
   margin-left: 8px;
   vertical-align: 3px;
 }
+
 .news .group_issue .direct_area .link_direct {
   margin: 0 4px 0 7px;
   color: #202020;
 }
+
 .news .group_title .link_newsstand {
   float: left;
   color: #000;
@@ -124,10 +132,23 @@
   float: right;
 }
 
-.news_icons {
-  width: 20px;
-  height: 20px;
+
+
+.title_view {
+  position: relative;
+  height: 260px;
+  border: 1px solid #dae1e6;
+  border-width: 0 1px;
 }
+
+.title_view .frame_area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 
 .group_news {
   position: relative;
@@ -136,15 +157,33 @@
   border: 1px solid #dae1e6;
   border-width: 1px 0;
 }
+
 .part_of_group_news {
-  width: 122.62px;
-  height: 63px;
+  position: relative;
   float: left;
-  border-radius: 1px;
-  border-right: 1px solid #dae1e6;
-  border-left: 1px solid #dae1e6;
-  border-top: 1px solid #dae1e6;
-  border-bottom: 1px solid #dae1e6;
+  width: 16.66%;
+  height: 65px;
+}
+
+.thumb {
+  display: block;
+  padding: 23px 0 22px;
+  text-align: center;
+}
+
+.popup_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  overflow: hidden;
+  padding: 19px 0 18px;
+  background-color: #f7f9fa;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
 }
 
 .group_news .btn_preview {
@@ -177,6 +216,7 @@
   float: left;
   margin-left: 10px;
 }
+
 .btn_sort:before {
   background-color: #c7ccd1;
   display: inline-block;
@@ -211,24 +251,30 @@
   font-size: 14px;
   color: #000;
 }
+
 .sc_themecast .group_title .title_area .dsc {
   margin-left: 8px;
   color: gray;
 }
+
 .sc_themecast .group_title .info_area {
   float: right;
 }
+
 .sc_themecast .group_title .info_area .info {
   color: grey;
 }
+
 .sc_themecast .group_title .info_area .new {
   color: #000;
 }
+
 .sc_themecast .group_title .info_area .btn_set {
   position: relative;
   margin-left: 14px;
   color: #505050;
 }
+
 .sc_themecast .group_title .info_area .btn_set:before {
   display: inline-block;
   width: 11px;
@@ -241,6 +287,7 @@
   vertical-align: -1px;
   opacity: 0.7;
 }
+
 .sc_themecast .group_title .info_area .btn_set:after {
   position: absolute;
   top: 2px;
@@ -257,6 +304,7 @@
   position: relative;
   background-color: #fff;
 }
+
 .sc_themecast .main_category:before {
   position: absolute;
   top: 0;
@@ -266,10 +314,12 @@
   content: "";
   border: 1px solid #dae1e6;
 }
+
 .sc_themecast .main_category .pm_btn_prev {
   top: 6px;
   left: -23px;
 }
+
 .pm_btn_prev {
   position: absolute;
   left: -22px;
@@ -300,6 +350,7 @@
 .sc_themecast .main_category .list_category_wrap {
   overflow: hidden;
 }
+
 .sc_themecast .main_category .list_category {
   font-size: 0;
   line-height: 0;
@@ -309,6 +360,7 @@
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
+
 .sc_themecast .main_category .list_category:before {
   position: absolute;
   top: 0;
@@ -318,10 +370,12 @@
   content: "";
   border: 1px solid #dae1e6;
 }
+
 .sc_themecast .main_category .category_item:first-child,
 .sc_themecast .main_category .category_item:nth-child(8n + 1) {
   width: 92px;
 }
+
 .sc_themecast .main_category .category_item {
   position: relative;
   display: inline-block;
@@ -339,6 +393,7 @@
   text-align: center;
   text-decoration: none;
 }
+
 .sc_themecast .main_category .tab.id_sports[aria-selected="true"] {
   background-color: #0147b5;
   color: #fff;
