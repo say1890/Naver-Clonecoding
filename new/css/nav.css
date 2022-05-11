@@ -1,0 +1,15 @@
+#gnb {
+    position: relative;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    height: 52px;
+}
+
+#gnb_wrap {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+#weather {
+    width: 270px;
+    height: 52px;
+}

@@ -1,0 +1,145 @@
+#column_right {
+    width: 350px;
+}
+
+#login_area {
+    padding: 16px 16px 12px 17px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+
+}
+
+#login_ment {
+    padding-left: 3px;
+    color: grey;
+}
+
+#login_area #login_btn {
+    padding: 15px 0;
+    margin-top: 11px;
+    background-color: #19ce60;
+    border: 1px solid #15c654;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ico_naver {
+    display: inline-block;
+    width: 60px;
+    height: 12px;
+    background-position: -138px -330px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 2px 5px 0 0;
+}
+
+#timesquare {
+
+    position: relative;
+    height: 47px;
+    margin: 12px 0;
+    border: 1px solid #dae1e6;
+    letter-spacing: -.25px;
+}
+
+#timesquare strong:after {
+    position: absolute;
+    top: 2px;
+    left: -8px;
+    content: '';
+    width: 1px;
+    height: 12px;
+    background-color: #e4e8eb;
+}
+
+#small_ad {
+    width: 350px;
+    height: 200px;
+}
+
+#shop_header {
+    width: 350px;
+    height: 44px;
+}
+
+#shop_header .trend_shopping:before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-position: -26px -54px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin-right: 4px;
+    vertical-align: -3px;
+}
+
+#shop_content {
+    overflow: hidden;
+    width: 350px;
+    height: 1539px;
+}
+
+#shop_content .goods_wrap {
+    overflow: hidden;
+}
+
+#shop_content .goods_wrap .goods_item {
+    float: left;
+    margin-right: 5px;
+    width: 33.33%;
+}
+
+.group_mall {
+    overflow: hidden;
+    padding: 12px 4px 11px 10px;
+    background-color: #f7f9fa;
+    border-bottom: 1px solid #dae1e6;
+}
+
+.group_mall .link_mall {
+    float: left;
+    line-height: 23px;
+    color: #404040;
+}
+
+.halfcomma {
+    margin: 10px 12px 0;
+}
+
+[class^=halfcomma] {
+    background-color: #c9cccf;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: top;
+    float: left;
+}
+
+#shop_title {
+    position: relative;
+    padding-left: 5px;
+}
+
+#shop_title #shop_control {
+    top: -6px;
+}
+
+.event_list {
+    margin: 13px 5px 0;
+    line-height: 28px;
+}
+
+.group_plus {
+    position: relative;
+    padding: 55px 0 30px;
+    margin: 0 8px;
+    border-top: 1px solid #e4e8eb;
+}

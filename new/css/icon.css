@@ -1,0 +1,27 @@
+#main_logo,
+.btn_set,
+.ico_btn_back,
+.ico_btn_next,
+.ico_mail,
+#news_company::after {
+    background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
+    -webkit-background-size: 457px 434px;
+    background-size: 457px 434px;
+    background-repeat: no-repeat;
+}
+
+
+.ico_naver {
+    background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
+    -webkit-background-size: 457px 434px;
+    background-size: 457px 434px;
+    background-repeat: no-repeat;
+}
+
+
+.trend_shopping:before {
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_shop_bffdc9.png);
+    -webkit-background-size: 107px 78px;
+    background-size: 107px 78px;
+    background-repeat: no-repeat;
+}

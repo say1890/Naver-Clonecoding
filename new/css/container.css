@@ -1,0 +1,24 @@
+#container {
+    position: relative;
+    width: 1130px;
+    height: 3000px;
+    padding: 20px 30px;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+button,
+input,
+select,
+table,
+textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}

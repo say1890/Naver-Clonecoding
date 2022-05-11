@@ -1,0 +1,85 @@
+header {
+    position: relative;
+    background-color: #fff;
+    z-index: 2000;
+    height: 160px;
+
+}
+
+#gnb .ico_mail {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-position: -420px -73px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 3px 9px 0 0;
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+#upper_menu {
+    position: absolute;
+    top: 12px;
+    right: 27px;
+}
+
+#header_flex {
+    position: relative;
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#main_logo {
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+}
+
+#logo_with_searchbar {
+    position: relative;
+    height: 100%;
+}
+
+#logo_with_searchbar #searchbar {
+    width: 582px;
+    height: 52px;
+    border: 2px solid #19ce60;
+}
+
+#search_btn {
+    position: absolute;
+    top: 52px;
+    right: 260px;
+    bottom: 0;
+    width: 56px;
+    height: 56px;
+    background-color: #19ce60;
+    -webkit-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+
+#event_logo {
+    top: 53px;
+    right: 50%;
+
+}
+
+footer {
+    background-color: #fafbfc;
+    border-top: 1px solid #e4e8eb;
+}
+
+#footer_inner {
+    width: 1130px;
+    padding: 0 30px 92px;
+    margin: 0 auto;
+}

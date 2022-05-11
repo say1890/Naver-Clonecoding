@@ -1,5 +1,6 @@
 #wrap {
-  overflow: hidden; /*부모요소의 범위를 넘어가는 자식요소의 부분은 보이지 않도록 */
+  overflow: hidden;
+  /*부모요소의 범위를 넘어가는 자식요소의 부분은 보이지 않도록 */
   min-width: 1190px;
 }
 
@@ -42,6 +43,7 @@ h6 {
   font-size: inherit;
   line-height: inherit;
 }
+
 fieldset,
 img {
   border: 0;
@@ -74,6 +76,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 body,
 button,
 input,
@@ -86,6 +89,7 @@ textarea {
   font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕",
     helvetica, "Apple SD Gothic Neo", sans-serif;
 }
+
 .d-flex {
   display: flex;
 }
@@ -121,33 +125,4 @@ iframe {
   width: 100%;
   height: auto;
   border: none;
-}
-
-.bg-pink {
-  background-color: pink;
-}
-
-.bg-orange {
-  background-color: orange;
-}
-
-.bg-yellow {
-  background-color: yellow;
-}
-
-.bg-green {
-  background-color: greenyellow;
-}
-.bg-blue {
-  background-color: skyblue;
-}
-.bg-purple {
-  background-color: slateblue;
-}
-
-.bg-cornflowerblue {
-  background-color: cornflowerblue;
-}
-.text-green {
-  color: #03c75a;
 }

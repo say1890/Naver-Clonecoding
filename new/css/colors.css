@@ -1,0 +1,55 @@
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: greenyellow;
+}
+
+.bg-blue {
+    background-color: skyblue;
+}
+
+.bg-purple {
+    background-color: slateblue;
+}
+
+.bg-cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+.bg-beige {
+    background-color: beige;
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-lightgray {
+    background-color: #778899;
+}
+
+.text-green {
+    color: #03c75a;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-pink {
+    color: #e65da0;
+}
+
+.text-blue {
+    color: #3565c9;
+}
