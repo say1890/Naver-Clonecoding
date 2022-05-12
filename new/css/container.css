@@ -1,9 +1,9 @@
 #container {
     position: relative;
     width: 1130px;
+    height: auto;
     padding: 20px 30px;
     margin: 0 auto;
-
 }
 
 a {

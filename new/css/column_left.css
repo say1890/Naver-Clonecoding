@@ -308,9 +308,11 @@
 
 .chart_num {
 
+    display: table-cell;
     width: 50px;
-    height: 41px;
-    padding: 7px 0px 0px 0px;
+    padding-top: 7px;
+    text-align: center;
+    vertical-align: top;
 }
 
 .singer .singer_name::after {
@@ -377,7 +379,6 @@
 }
 
 .theme_title {
-    padding-left: 20px;
     padding-top: 24px;
     line-height: 25px;
 }
@@ -421,7 +422,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    display: block;
     color: grey;
 }
 
@@ -451,4 +451,12 @@
     vertical-align: top;
     display: block;
     margin: 0 auto 3px;
+}
+
+/*footer*/
+footer {
+
+    display: flex;
+    background-color: #fafbfc;
+    border-top: 1px solid #e4e8eb;
 }
