@@ -3,7 +3,11 @@
 .ico_btn_back,
 .ico_btn_next,
 .ico_mail,
-#news_company::after {
+#news_company::after,
+.chart_link .link_play:before,
+.chart_link .link_lyrics:before,
+.theme_title:after,
+.btn_more_wrap .ico_more {
     background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_dba1af.png);
     -webkit-background-size: 457px 434px;
     background-size: 457px 434px;

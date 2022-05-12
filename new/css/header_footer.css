@@ -7,7 +7,6 @@ header {
 }
 
 #gnb .ico_mail {
-    display: inline-block;
     width: 21px;
     height: 21px;
     background-position: -420px -73px;
@@ -69,7 +68,8 @@ header {
 
 #event_logo {
     top: 53px;
-    right: 50%;
+    right: 100%;
+    margin-right: -30px;
 
 }
 

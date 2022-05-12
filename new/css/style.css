@@ -43,6 +43,9 @@ html {
     align-self: center;
 }
 
+.space-between {
+    align-content: space-between;
+}
 
 .mb-1 {
     margin-bottom: 10px;

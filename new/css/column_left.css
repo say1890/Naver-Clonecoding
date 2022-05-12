@@ -1,7 +1,3 @@
-#theme_post_container {
-    height: 750px;
-}
-
 #column_left {
     width: 750px;
 }
@@ -149,7 +145,8 @@
     position: relative;
     margin-top: 49px;
     padding-top: 4px;
-    height: 300px;
+    height: 3000px;
+
 }
 
 #theme_post_container #post_top {
@@ -189,4 +186,269 @@
 #theme_post_container #post_top #post_right {
     margin-left: 22px;
 
+}
+
+
+.theme_link {
+    padding: 11px 18px;
+    margin-top: -1px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.theme_item {
+    float: left;
+}
+
+
+.video_preview_container {
+    padding: 18px 0 17px;
+}
+
+.video_preview_container .video_preview_wrap {
+    margin: 0 -27px -31px 0;
+    overflow: hidden;
+}
+
+.video_preview_container .video_preview_wrap .video_area {
+    margin: 0 27px 31px 0;
+    width: 232px;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: top;
+    text-decoration: none;
+
+
+}
+
+.video_preview_container .video_preview_wrap .video_area .video_thumb {
+    width: 232px;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 40px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 13px;
+}
+
+.video_area .theme_category {
+    margin-bottom: 2px;
+    color: #e65da0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-weight: 700;
+}
+
+.date:before {
+    background-color: grey;
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: top;
+    content: '';
+    margin: 0 5px;
+    vertical-align: 3px;
+}
+
+/*음악*/
+.music_group {
+    border-top: 1px solid #e4e8eb;
+}
+
+.music_group .chart_view_wrap {
+    padding: 3px 0 19px;
+    position: relative;
+}
+
+.chart_view {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.single_song {
+    display: table;
+    width: 100%;
+    padding: 14px 0;
+    table-layout: fixed;
+    border-bottom: 1px solid #dae1e6;
+
+}
+
+.info_box {
+    display: flex;
+    overflow: hidden;
+}
+
+.chart_title {
+    margin-left: 15px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.singer {
+    overflow: hidden;
+}
+
+.chart_num {
+
+    width: 50px;
+    height: 41px;
+    padding: 7px 0px 0px 0px;
+}
+
+.singer .singer_name::after {
+    background-color: grey;
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: top;
+    content: '';
+    margin: 0 5px;
+    vertical-align: 3px;
+}
+
+.chart_link {
+    display: flex;
+    justify-content: flex-end;
+    width: 67px;
+    margin-right: 10px;
+}
+
+.chart_link .link_play:before {
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-position: -444px -65px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: 6px;
+    margin-right: 10px;
+}
+
+.description {
+    overflow: hidden;
+}
+
+.chart_link .link_lyrics:before {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-position: -420px -306px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: 5px;
+}
+
+
+
+.video_padding {
+    padding: 18px 0 17px;
+}
+
+.video_view {
+    margin: 0 -27px -31px 0;
+}
+
+.small_magazine {
+    padding: 35px 0 27px;
+    letter-spacing: -.25px;
+    border-top: 1px solid #e4e8eb;
+}
+
+.theme_title {
+    padding-left: 20px;
+    padding-top: 24px;
+    line-height: 25px;
+}
+
+.theme_title:after {
+    display: inline-block;
+    width: 7px;
+    height: 11px;
+    background-position: -444px -304px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin-left: 6px;
+    vertical-align: 0;
+}
+
+.theme_title .magazine_wrap {
+    overflow: hidden;
+    padding: 17px 0 29px;
+}
+
+.poster {
+    width: 130px;
+    height: 300px;
+    margin-right: 25px;
+
+
+}
+
+.poster>img {
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+    filter: alpha(opacity=6);
+
+
+    box-shadow: 1px solid #000;
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    color: grey;
+}
+
+.btn_more_wrap {
+    position: relative;
+    padding-top: 18px;
+    margin-bottom: 42px;
+    border-bottom: 1px solid #e4e8eb;
+}
+
+
+.btn_more_wrap .btn_more {
+    position: absolute;
+    top: 0;
+    left: 334px;
+    background-color: transparent;
+    border: 0px;
+    color: #505050;
+    cursor: pointer;
+}
+
+.btn_more_wrap .ico_more {
+    width: 42px;
+    height: 42px;
+    background-position: 0 -345px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    display: block;
+    margin: 0 auto 3px;
 }
