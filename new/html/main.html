@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAVER</title>
-    <link rel="stylesheet" href="/new/css/colors.css">
-    <link rel="stylesheet" href="/new/css/style.css">
-    <link rel="stylesheet" href="/new/css/icon.css">
-    <link rel="stylesheet" href="/new/css/header_footer.css">
-    <link rel="stylesheet" href="/new/css/nav.css">
-    <link rel="stylesheet" href="/new/css/container.css">
-    <link rel="stylesheet" href="/new/css/column_left.css">
-    <link rel="stylesheet" href="/new/css/column_right.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/icon.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/container.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/column_left.css">
+    <link rel="stylesheet" type="text/css" href="/new/css/column_right.css">
 </head>
 
 <body>
@@ -24,8 +25,8 @@
                 <div id="upper_menu" class="bg-blue">
                     </span><span class="description">네이버를 시작페이지로</span>
                     <span class="ico_btn_next"></span>
-                    <span class="">쥬니어네이버</span>
-                    <span class="">해피빈</span>
+                    <span>쥬니어네이버</span>
+                    <span>해피빈</span>
                 </div>
                 <div id="logo_with_searchbar" class="d-flex content-center items-center ">
                     <div id="main_logo" class="mb-2 mr-2">
@@ -81,8 +82,8 @@
         </div>
 
 
-        <div id="container">
-            <div id="column_left" class="fl bg-blue">
+        <div id="container" class="d-flex">
+            <div id="column_left">
                 <div id="important_ad">
                     <img src="https://ssl.pstatic.net/tveta/libs/1391/1391640/5837a88998a719a5f065_20220510115452359.jpg"
                         width="1500" height="270" alt="[광고]보육원 영유아 반의 식사시간 아이들은 울거나 보채지 않습니다. 초록우산어린이재단" border="0"
@@ -233,7 +234,7 @@
                         </div>
                     </div>
                     <!--테마 메뉴 끝-->
-                    <div id="theme_post_container" class="">
+                    <div id="theme_post_container">
                         <div id="post_top" class="d-flex">
                             <div id="post_left" class="fl">
                                 <div id="post_video" class="absolute">
@@ -957,7 +958,7 @@
             <!--왼쪽 컬럼 끝-->
 
             <!--오른쪽 컬럼 시작-->
-            <div id="column_right" class="fr bg-white">
+            <div id="column_right">
                 <div id="login_area" class="bg-blue">
                     <div id="login_ment">
                         네이버를 더 안전하고 편리하게 이용하세요
@@ -985,19 +986,20 @@
                 <div id="shop_header" class="mt-1 d-flex items-center content-between">
                     <strong class="trend_shopping">트렌드쇼핑</strong>
                     <div class="d-flex">
-                        <div>상품</div>
-                        <div>쇼핑몰</div>
-                        <div>MEN</div>
+                        <div class="shop_menu highlight">상품</div>
+                        <div class="shop_menu">쇼핑몰</div>
+                        <div class="shop_menu">MEN</div>
+                        <div class="shop_menu">원쁠딜</div>
                     </div>
                 </div>
-                <div id="shop_content" class="bg-purple">
+                <div id="shop_content">
                     <div class="group_mall">
                         <div class="mall_area">
-                            <a class="link_mall">쿠팡</a>
+                            <a class="link_mall"><strong>쿠팡</strong></a>
                             <span class="halfcomma"></span>
                             <a class="link_mall">G마켓</a>
                             <span class="halfcomma"></span>
-                            <a class="link_mall">옥션</a>
+                            <a class="link_mall"><strong>옥션</strong></a>
                             <span class="halfcomma"></span>
                             <a class="link_mall">11번가</a>
                             <span class="halfcomma"></span>
@@ -1010,68 +1012,328 @@
                             <span class="halfcomma"></span>
                             <a class="link_mall">SSG닷컴</a>
                             <span class="halfcomma"></span>
+                            <a class="link_mall"><strong>GS샵</strong></a>
+                            <span class="halfcomma"></span>
                             <a class="link_mall">롯데i몰</a>
                             <span class="halfcomma"></span>
                             <a class="link_mall">CJ온스타일</a>
                             <span class="halfcomma"></span>
-                            <a class="link_mall">패션플러스</a>
+                            <a class="link_mall"><strong>패션플러스</strong></a>
                         </div>
-                        <div class="mall_area"></div>
                     </div>
-                    <div class="goods_wrap" class="bg-yellow d-flex">
-                        <div class="mt-10 ">
-                            <ul>
-                                <li class="goods_item bg-white">
-                                    gg
-                                </li>
-                                <li class="goods_item bg-white">
-                                    gggg
-                                </li>
-                                <li class="goods_item bg-white">
-                                    gsg
-                                </li>
+
+                    <div class="shop_control">
+                        <div class="num_box">
+                            <span class="now">1</span>/12
+                        </div>
+                        <div class="btn_box">
+                            <a href="#" role="button" class="btn btn_prev"></a>
+                            <a href="#" role="button" class="btn btn_next"></a>
+                        </div>
+                    </div>
+
+                    <ul class="goods_list">
+                        <div class="goods_wrap">
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220405_28/aca24d12-e186-44fb-b628-98e39fa67f9c.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220405_28/aca24d12-e186-44fb-b628-98e39fa67f9c.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>일상복으로도 OK~!</strong></div>
+                                <span>핏예쁜 운동복1+1</span>
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220509_23/9fc2d041-1d21-4c82-a306-49ac6d13b51c.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220509_23/9fc2d041-1d21-4c82-a306-49ac6d13b51c.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>번짐없이 한번에</strong></div>
+                                <span>아이펜슬 30% 할인</span>
+
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220510_8/4f568e99-bc81-4d2a-ba4c-57fb651734a2.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220510_8/4f568e99-bc81-4d2a-ba4c-57fb651734a2.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>이거하나 바꾸고</strong></div>
+                                <span>완벽한 주방 됐어</span>
+                            </li>
+                        </div>
+
+                        <div class="goods_wrap">
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220512_2/eb0073bf-620a-473d-8a04-a6e17a89bb85.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220512_2/eb0073bf-620a-473d-8a04-a6e17a89bb85.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>14k 18k 세련팔찌~</strong></div>
+                                <span>전 상품 10% 쿠폰!</span>
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220512_7/efd86010-3f08-441a-9f0d-88484f8af909.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220512_7/efd86010-3f08-441a-9f0d-88484f8af909.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>퀄리티 만족 100%</strong></div>
+                                <span>여름리넨 원피스!</span>
+
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220419_10/b6069745-bb5a-4544-a2af-01763d3a4717.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220419_10/b6069745-bb5a-4544-a2af-01763d3a4717.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>극찬할만하죠~?</strong></div>
+                                <span>프리미엄룩</span>
+                            </li>
+                        </div>
+
+
+                        <div class="goods_wrap">
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220511_27/bdf3d1d9-9673-450e-b9fe-c2d07f00eb66.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220511_27/bdf3d1d9-9673-450e-b9fe-c2d07f00eb66.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>이거정말편해요</strong></div>
+                                <span>12,900원 퉁굽슈즈</span>
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20211217_28/cc72b2cf-1b07-4015-a7fc-a7777d4b7b19.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20211217_28/cc72b2cf-1b07-4015-a7fc-a7777d4b7b19.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>노협찬 후기로</strong></div>
+                                <span>유명해진 신부크림</span>
+
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220511_7/fa80b103-536b-4813-a7a6-bb7b087289bc.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220511_7/fa80b103-536b-4813-a7a6-bb7b087289bc.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>요즘핫한 생리대</strong></div>
+                                <span>이 모든걸? SALE</span>
+                            </li>
+                        </div>
+
+                        <div class="goods_wrap">
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220509_6/4dfde9bc-e2b5-4463-819f-a11cb2e82615.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220509_6/4dfde9bc-e2b5-4463-819f-a11cb2e82615.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>전상품 3+1 EVENT</strong></div>
+                                <span>색감 너무 칭찬해~</span>
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220510_3/14b02ac4-36c2-479c-9d3f-ce129cdd1f41.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220510_3/14b02ac4-36c2-479c-9d3f-ce129cdd1f41.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>그냥 레깅스?</strong></div>
+                                <span>이젠 EMS로!</span>
+
+                            </li>
+                            <li class="goods_item">
+                                <img src="https://s.pstatic.net/shopping.phinf/20220504_14/8a989f11-be6a-4b16-b6da-0f5da74bf258.jpg?type=f214_292"
+                                    lazyimg="https://s.pstatic.net/shopping.phinf/20220504_14/8a989f11-be6a-4b16-b6da-0f5da74bf258.jpg?type=f214_292"
+                                    width="107" height="146" alt="">
+                                <div class="goods_title"><strong>초강력 수압!</strong></div>
+                                <span>욕실 청소 도우미~</span>
+                            </li>
+                        </div>
+
+
+
+
+                    </ul>
+
+                    <div class="shop_event_area" class="bg-pink">
+                        <div id="shop_title" class="d-flex content-between">
+                            <strong class="title">
+                                반갑다! 쇼핑뉴스
+                            </strong>
+                            <div class="shop_control">
+                                1/6 <>
+                            </div>
+                            <ul class="event_list bg-yellow">
 
                             </ul>
                         </div>
-                    </div>
-                </div>
-                <!--쇼핑 끝-->
-                <div id="shop_event_area">
-                    <div id="shop_title" class="d-flex content-between">
-                        <strong class="title">
-                            반갑다! 쇼핑뉴스
-                        </strong>
-                        <div class="shop_control">
-                            1/6 <>
+                        <!--shop title 끝-->
+                        <div class="shop_list">
+                            <ul>
+                                <li class="shop_line">
+                                    <div class="shop_name">러블리슈즈</div>
+                                    <span>신상 슈즈 SALE + 무료배송!</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">다채몰</div>
+                                    <span>힘내라 대구 소상공인 힘내라</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">유니프랜드</div>
+                                    <span>타임특가 4,900원 실속구매 1+1+1</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">서울샵</div>
+                                    <span>신상 슈즈 SALE + 무료배송!</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">서울샵</div>
+                                    <span>신상 슈즈 SALE + 무료배송!</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">서울샵</div>
+                                    <span>신상 슈즈 SALE + 무료배송!</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">서울샵</div>
+                                    <span>신상 슈즈 SALE + 무료배송!</span>
+                                </li>
+                                <li class="shop_line">
+                                    <div class="shop_name">서울샵</div>
+                                    <span>신상 슈즈 SALE + 무료배송!</span>
+                                </li>
+                            </ul>
+
                         </div>
-                        <ul class="event_list bg-yellow">
+                        <div id="group_plus">
+                            <div class="group_plus_header">
+                                <div class="group_plus_menu">
+                                    패션
+                                </div>
+                                <div class="group_plus_menu">
+                                    라이프
+                                </div>
+                                <div class="group_plus_menu">
+                                    뷰티
+                                </div>
+                                <div class="group_plus_menu">
+                                    디지털, 레저
+                                </div>
 
-                        </ul>
+                            </div>
+                            <div class="group_plus_body">
+                                <div class="group_plus_content">
+                                    <img src="https://s.pstatic.net/shopping.phinf/20220512_14/9dc650be-fd91-4a33-a06f-4964b7282fe3.jpg"
+                                        lazyimg="https://s.pstatic.net/shopping.phinf/20220512_14/9dc650be-fd91-4a33-a06f-4964b7282fe3.jpg"
+                                        width="163" height="163" alt="">
+                                    <div class="group_plus_title">한끗다른 임성근 메밀소바</div>
+                                </div>
+                                <div class="group_plus_content">
+                                    <img src="https://s.pstatic.net/shopping.phinf/20220428_2/01c09f17-56e2-4cc7-995a-a32dddff3d11.jpg"
+                                        lazyimg="https://s.pstatic.net/shopping.phinf/20220428_2/01c09f17-56e2-4cc7-995a-a32dddff3d11.jpg"
+                                        width="163" height="163" alt="">
+                                    <div class="group_plus_title"> 녹물로 빨면 깨끗할리없지 </div>
+
+                                </div>
+                            </div>
+                            <div id="one_plus_deal">
+                                <div class="deal_header">
+                                </div>
+                                <div class="deal_body">
+                                    <div class="deal_line">
+                                        <div class="deal_item"></div>
+                                        <div class="deal_item"></div>
+                                        <div class="item_desc">
+                                            <div class="item_title">
+
+                                            </div>
+                                            <div class="item_price">
+                                                <span></span>
+                                                <span>29,900원</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <!--shop title 끝-->
-
-                </div>
-                <!--쇼핑 할인 끝-->
-                <div class="group_plus bg-cornflowerblue">
-
                 </div>
             </div>
-            <!--오른쪽 컬럼 끝-->
+        </div>
+        <!--쇼핑 끝-->
 
+        <!--쇼핑 할인 끝-->
+        <div class="group_plus bg-cornflowerblue">
 
         </div>
-        <!--컨테이너 끝-->
+    </div>
+    <!--오른쪽 컬럼 끝-->
 
-        <footer>
-            <div id="footer_inner">
-                <div class="banner d-flex">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+
+    </div>
+    <!--컨테이너 끝-->
+
+    <footer>
+        <div id="footer_inner">
+            <div class="banner d-flex">
+                <div class="footer_ad">
+
+                    <div class="footer_single_ad">
+                        <img class="thumb_img"
+                            src="https://ssl.pstatic.net/tveta/libs/1392/1392834/193276a3f999e9a2429e_20220511095559134.png"
+                            width="160" height="86" alt="">
+                        <div class="ad_content">
+                            <div class="subtitle">글로벌모바일비전2022</div>
+                            <div class="title">최신 ICT 산업분야의</div>
+                            <div>
+                                컨퍼런스와 산업관을<br>
+                                자유롭게 참석, 관람하세요!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer_single_ad">
+                        <img class="thumb_img"
+                            src="https://ssl.pstatic.net/tveta/libs/1389/1389269/a8b5c22347da7c7866cd_20220419155124187.jpg"
+                            width="160" height="86" alt="">
+                        <div class="ad_content">
+                            <div class="subtitle">경찰청</div>
+                            <div class="title">보이스피싱 예방!</div>
+                            <div>
+                                나를 지키는 의심!<br>
+                                이웃을 지키는 관심!
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="footer_single_ad">
+                        <img class="thumb_img"
+                            src="https://ssl.pstatic.net/tveta/libs/1364/1364184/a77e88804e3b19dc01f0_20220512152801352.jpg"
+                            width="160" height="86" alt="">
+                        <div class="ad_content">
+                            <div class="subtitle">열린연단 석학에세이</div>
+                            <div class="title">정치 개혁의 어젠다</div>
+                            <div>
+                                한국 민주주의 기로에 서서<br>
+                                발전 저해하는 문제의 성찰
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
                 </div>
+                <div></div>
+                <div></div>
 
             </div>
-        </footer>
+
+            <div class="notice_area">
+
+            </div>
+
+            <div class="partner_box">
+
+            </div>
+            <div class="corp_area">
+
+            </div>
+        </div>
+
+        </div>
+    </footer>
     </div>
 
 

@@ -1,4 +1,6 @@
 #column_right {
+    margin-left: 30px;
+    align-items: flex-end;
     width: 350px;
 }
 
@@ -49,8 +51,8 @@
 
 #timesquare strong:after {
     position: absolute;
-    top: 2px;
-    left: -8px;
+    top: 18px;
+    left: 29px;
     content: '';
     width: 1px;
     height: 12px;
@@ -79,20 +81,109 @@
     vertical-align: -3px;
 }
 
+
+#shop_header .shop_menu {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#shop_header .highlight {
+    border-bottom: 2px solid #19ce60;
+    color: #03c75a;
+}
+
 #shop_content {
     overflow: hidden;
-    width: 350px;
-    height: 1539px;
+    height: 1763px;
+    border: 1px solid #e4e8eb;
 }
 
-#shop_content .goods_wrap {
-    overflow: hidden;
+
+#shop_content .group_goods {
+    position: relative;
+
 }
 
-#shop_content .goods_wrap .goods_item {
+.shop_control {
+    float: right;
+    padding-top: 13px;
+    padding-right: 8px;
+}
+
+.shop_control .num_box {
     float: left;
-    margin-right: 5px;
+    line-height: 29px;
+    color: grey;
+}
+
+.shop_control .btn_box {
+    overflow: hidden;
+    float: right;
+    margin-left: 7px;
+}
+
+.shop_control .btn {
+    float: left;
+    background-color: #fff;
+    border: 1px solid #dae1e6;
+}
+
+.btn_prev:before {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -93px -77px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: 9px 12px 9px 10px;
+}
+
+.btn_next:before {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -79px -77px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: 9px 10px 9px 12px;
+}
+
+.shop_control .num_box .now {
+    margin-right: 4px;
+    color: #202020;
+    font-weight: 700;
+}
+
+.goods_list {
+    margin: 0 auto;
+    padding: 55px 8px 20px;
+}
+
+.goods_wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.goods_item {
+    position: relative;
     width: 33.33%;
+}
+
+.goods_item .goods_title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.goods_item>span {
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 16px;
+    text-align: center;
 }
 
 .group_mall {
@@ -108,8 +199,9 @@
     color: #404040;
 }
 
+
 .halfcomma {
-    margin: 10px 12px 0;
+    margin: 10px 10px 0;
 }
 
 [class^=halfcomma] {
@@ -137,9 +229,111 @@
     line-height: 28px;
 }
 
-.group_plus {
+#group_plus {
     position: relative;
     padding: 55px 0 30px;
     margin: 0 8px;
     border-top: 1px solid #e4e8eb;
 }
+
+
+
+.shop_event_area {
+    margin: 0px 8px;
+    padding: 19px 0 17px;
+    border-top: 1px solid #e4e8eb;
+}
+
+.shop_event_area #shop_title {
+    position: relative;
+    padding-left: 5px;
+    display: flex;
+    text-align: center;
+}
+
+#shop_title .shop_control {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    text-align: right;
+}
+
+.shop_list {
+    padding: 19px 0 17px;
+    margin: 0 8px;
+    line-height: 28px;
+}
+
+.shop_list>ul {
+    margin: 13px 5px 0;
+    line-height: 28px;
+}
+
+.shop_line {
+    display: flex;
+
+    line-height: 28px;
+}
+
+
+.shop_list .shop_name {
+    color: #000;
+    font-weight: 700;
+    margin-right: 13px;
+}
+
+.shop_list .shop_name:before {
+    background-color: #1ace61;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: top;
+    content: '';
+    margin-right: 8px;
+    vertical-align: 2px;
+}
+
+#group_plus {
+    position: relative;
+    overflow: hidden;
+    padding: 25px 0 19px;
+    margin: 0 8px;
+    border-top: 1px solid #e4e8eb;
+    border-bottom: 1px solid #e4e8eb;
+}
+
+.group_plus_header {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+#group_plus .group_plus_header .group_plus_menu {
+
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -.5px;
+    border-bottom: 2px solid transparent;
+}
+
+.group_plus_header .group_plus_menu+.group_plus_menu {
+    margin-left: 12px;
+}
+
+#group_plus .group_plus_body {
+    display: flex;
+}
+
+.group_plus_body .group_plus_content {
+    margin-right: 5px;
+}
+
+
+.group_plus_body .group_plus_content .group_plus_title {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+#one_plus_deal {}
